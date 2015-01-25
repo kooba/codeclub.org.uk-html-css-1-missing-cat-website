@@ -1,0 +1,13 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Missing Cat": "bash ~/workspace/.guides/restore.sh missing_cat"
+  },
+
+// Preview button configuration
+  "preview": {
+       "Preview": "https://{{domain}}/{{index}}"
+  }
+}

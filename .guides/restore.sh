@@ -9,11 +9,8 @@ echo
 echo '-------------------------------------'
 echo -e "${red}Restoring your workspace${NC}"
 
-# Remove the entire contents of the root folder
-rm -rf ~/workspace/* 
-
-# Copy the example folder to the root
-cp -r ~/workspace/.guides/$1/* ~/workspace
+# Copy the example folder to the root - without overwriting existing files
+cp -r -n ~/workspace/.guides/$1/* ~/workspace
 
 echo -e "${red}Done!!! You can close the tab now.${NC}"
 echo '-------------------------------------'
