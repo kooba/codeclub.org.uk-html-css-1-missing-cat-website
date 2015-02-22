@@ -61,7 +61,7 @@ Now, write the `<img>` tag like you would normally, but in the src attribute, in
 <img src="images/felix-01.jpg" alt="picture of Felix">
 ```
 
-##SAVE YOUR FILE AND VIEW IT IN A BROWSER.
+## SAVE YOUR FILE AND VIEW IT IN A BROWSER.
 
 The image is quite large, so we want to make it a bit smaller. We can do this by using height or width attributes (or both). We don’t specify the width in centimeters or meters or inches or feet, but in something called pixels. I’m going to go with 400 pixels for this image.
 
@@ -86,7 +86,8 @@ We also need some information about how to contact the owners if anyone has seen
 
 ```html
 <p>Have you seen Felix? 
-Please contact his owners at felixowners@email.com</p>```
+Please contact his owners at felixowners@email.com</p>
+```
 
 That’s just a pretend email address, but let’s make it so that if someone clicks on it, it opens up their email client. We do this almost the same way we make a link, but instead of a url we put in a `mailto` like this:
 
@@ -98,7 +99,7 @@ felixowners@email.com
 </a>
 </p>
 ```
-##SAVE YOUR DOCUMENT AND CHECK IF IT WORKS IN A BROWSER!
+## SAVE YOUR DOCUMENT AND CHECK IF IT WORKS IN A BROWSER!
 
 
 
@@ -120,7 +121,7 @@ We also want ‘thank you’ to stand out, which we can do by adding the strong 
 <p><strong>Thank you!</strong><p>
 ```
 
-##SAVE YOUR DOCUMENT AND VIEW IT IN THE BROWSER.
+## SAVE YOUR DOCUMENT AND VIEW IT IN THE BROWSER.
 
 Notice how please is now in *italics* and Thank you is **bold**?
 
