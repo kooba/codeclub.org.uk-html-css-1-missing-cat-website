@@ -66,7 +66,7 @@ Now, write the `<img>` tag like you would normally, but in the src attribute, in
 The image is quite large, so we want to make it a bit smaller. We can do this by using height or width attributes (or both). We don’t specify the width in centimeters or meters or inches or feet, but in something called pixels. I’m going to go with 400 pixels for this image.
 
 ```html
-<img src="felix.jpg" alt="picture of Felix" width="400">
+<img src="images/felix-01.jpg" alt="picture of Felix" width="400">
 ```
 ---
 title: Step 3
